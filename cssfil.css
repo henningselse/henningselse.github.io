@@ -1,7 +1,7 @@
 body {
-    background: greenyellow;
+    background: white;
     width: 800px;
-    height: 1000px;
+    height: 1200px;
     /* Lägg webbsidam i mitten*/
     margin-left: auto;
     margin-right: auto;
@@ -9,5 +9,38 @@ body {
     /* Ram på body*/
     border-width: 1px;
     border-style: solid;
-    border-color: grey;
+    border-color:grey;
+    padding:20px
     }
+
+h1{
+     color:yellowgreen;
+     font-weight: 100;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 34px; 
+}
+h3{
+    color:yellowgreen;
+    font-family: arial;
+    font-size: 24;
+
+
+
+}
+
+p {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 130%;
+}
+img.floatbild{
+    float:right;
+    
+}
+a{
+    color:rgb(255, 0, 0)
+}
+hr{
+    color:red
+
+}

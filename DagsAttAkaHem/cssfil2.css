@@ -13,12 +13,12 @@ body {
 h2 {
     font-weight: 100;
     font-size: 30px;
-    color: #a508d4;
+    color: lightblue;
     margin-left:auto;
 }
 
 h3{
-    background: #a508d4;
+    background: black;
     padding: 5px;
     color:white;
     text-transform: uppercase;
@@ -60,6 +60,7 @@ header {
     background: white;
     width: 40%;
     float:left;
+    margin-top:20px;
 }
 .logo img {
     width:100px;
@@ -75,7 +76,7 @@ nav.meny{
 
 .imagesbar {
     background: white;
-    background-image: url(himmel.png);
+    background-image: url(NewYork.jfif);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -103,10 +104,9 @@ footer{
     width:100%;
     height: 600px;
     background-repeat: no-repeat;
-    background-color:#802082 ;
+    background-color:lightblue ;
     background-size: 100%;
-    background-image: url(footer.gif);
-    padding-top: 130px;
+ 
 
 }
 .inner_footer{
@@ -155,6 +155,6 @@ nav a {
 }
 
 nav a:hover {
-    background:#a508d4;
+    background:lightblue;
     color:white
 }

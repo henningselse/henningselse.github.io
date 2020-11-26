@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+p{
+    letter-spacing: 120;
+}
+.button{
+    color: red;
+}

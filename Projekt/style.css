@@ -238,6 +238,15 @@ footer{
 
 
 }
+.wrapperPriser{
+  width: 90%;
+  max-width: 1200px;
+  min-height: 500px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 /*Priser slut*/
 
 /*kontakt start*/
@@ -418,7 +427,6 @@ footer{
     margin-top:20px;
     padding-top:40px;
     margin-left:16px;
-    background-color: red;
     width:300px;
     height:300px;
     border-style: solid;
@@ -437,6 +445,13 @@ footer{
       border-style: solid;
       border-width: 2px;
 
+  }
+  .wrapperPriser{
+    width: 90%;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  
   }
 
 }

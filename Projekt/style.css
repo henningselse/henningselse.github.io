@@ -1,3 +1,5 @@
+/*Css kod*/
+
 *{
     padding: 0;
     margin: 0;
@@ -7,20 +9,19 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:white;
+    background-color:rgb(238, 238, 238);
     height: 2000px;
 }
 
+/*almänn typografi */
 h2{
-    text-align: center;
-    margin-top: 10px;
-    size:20px;
-    letter-spacing: 1px;
-    color:white;
-    text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  size:20px;
+  letter-spacing: 1px;
+  color:white;
+  text-transform: uppercase;
 }
-
-
 p{
     margin-top: 10px;
     letter-spacing: 2px;
@@ -48,6 +49,9 @@ h3{
     border-radius: 7px;
     margin:0px;
 }
+/*almänn typografi SLUT*/
+
+
 /* NAVigation  */
 nav{
     background: #2D185C;
@@ -122,7 +126,6 @@ nav{
 .frontimage{
     width:100%;
     height:auto;
-    padding-top: -2px;
     
 
 }
@@ -182,12 +185,6 @@ footer{
 }
 
  /*Footer slut*/
- 
-
-
-
-
-
 
 
 /*Resor*/
@@ -259,6 +256,9 @@ footer{
   border-style: solid;
   border-width: 2px;
 }
+.KontaktRuta ul{
+  margin-left:15px;
+}
 .KontaktRuta h2{
   color:black;
   letter-spacing: 2px;
@@ -315,7 +315,7 @@ footer{
         .checkbtn{
           display: block;
         }
-        ul{
+        nav ul{
           position: fixed;
           width: 375px;
           height: 100vh;
@@ -453,5 +453,8 @@ footer{
     margin-right: auto;
   
   }
+  .KontaktRuta ul{
+  margin-left:15px;
+}
 
 }

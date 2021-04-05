@@ -1,0 +1,460 @@
+/*Css kod*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(238, 238, 238);
+    height: 2000px;
+}
+
+/*almänn typografi */
+h2{
+  text-align: center;
+  margin-top: 10px;
+  size:20px;
+  letter-spacing: 1px;
+  color:white;
+  text-transform: uppercase;
+}
+p{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 10x;
+    margin-left: 20px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-weight: 100;
+    font-size: 34px;
+    margin-top: 20px;
+    background: #4E6FDE;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+h3{
+    background:#4E6FDE;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    margin:0px;
+}
+/*almänn typografi SLUT*/
+
+
+/* NAVigation  */
+nav{
+    background: #2D185C;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+/* Slut NAVigation  */
+.wrapper{
+    width: 90%;
+    max-width: 1200px;
+    min-height: 500px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+}
+
+
+    .inner_box{
+        margin-top: 40px;
+        width: 960px;
+        height:300px;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+.frontimage{
+    width:100%;
+    height:auto;
+    
+
+}
+    .box{
+        float:left;
+        width:48%;
+        margin-left: 2%;
+        height:300px;
+        background-color:#2D185C;
+        border-radius: 10px;
+        box-shadow: 8px 8px 4px rgb(104, 140, 212);
+        margin-top:50px;
+        
+        
+
+
+
+    }
+    /*Footer*/
+footer{
+    width:400;
+    height:1200px;
+    background:#2D185C;
+    padding-top: 150px;
+}
+.footerbox{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;   
+     height: 300px;
+}
+.inner_footer{
+
+    width:50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: row;
+
+
+}
+.footerbox img{
+    width:20px;
+    float:left;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.footerbox h2{
+    float:left;
+    background-color:#9E7EE1;
+    border-radius: 5px;
+}
+
+.footerbox p{
+    font-size: 20px;
+}
+
+ /*Footer slut*/
+
+
+/*Resor*/
+.resmal{
+  padding-top:40px;
+    margin-top: 10px;
+    width: 31.5%;
+    float:left;
+    margin-left: 1%;
+  
+
+
+}
+.resmal img{
+    max-width: 100%;
+    border-radius: 7px;
+    margin-left: 1%;
+
+}
+.wrapperResor{
+  width: 90%;
+  max-width: 1200px;
+  min-height: 800px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* Resor slut */
+
+/*Priser */
+
+.resmal p{
+  margin: 10px;
+  float:left;
+  color:white;
+  font-size: 20px;
+  background-color: #2D185C;
+  background-size: 10px;
+  padding:10px;
+  border-radius: 5px;
+}
+.priserImg{
+  margin-left: 25%;
+  border-radius: 10px;
+
+
+}
+.wrapperPriser{
+  width: 90%;
+  max-width: 1200px;
+  min-height: 500px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*Priser slut*/
+
+/*kontakt start*/
+.KontaktRuta{
+  margin-top:20px;
+  width:48%;
+  height:300px;
+  float:left;
+  margin-left:1%;
+  border-style: solid;
+  border-width: 2px;
+}
+.KontaktRuta ul{
+  margin-left:15px;
+}
+.KontaktRuta h2{
+  color:black;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.KontaktRuta li{
+  padding:10px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #2D185C;
+
+}
+/*kontakt slut*/
+
+
+/*Om oss Start*/
+.OmOssruta{
+  margin-top:20px;
+  width:98%;
+  height:400px;
+  float:left;
+  margin-left:1%;
+  border-style: solid;
+  border-width: 2px;
+}
+.OmOssruta h2{
+  color:black;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.OmOssruta p{
+  color:black;
+  margin-left: 67px;
+}
+
+
+/*Om oss Slut*/
+
+
+
+
+/* Mobilanpassning */
+
+@media (max-width: 952px){
+    label.logo{
+      font-size: 20px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+        .checkbtn{
+          display: block;
+        }
+        nav ul{
+          position: fixed;
+          width: 375px;
+          height: 100vh;
+          background: #2D185C;
+          top: 80px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+        }
+        nav{
+          width:100%;
+        }
+        nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+        }
+        nav ul li a{
+          font-size: 20px;
+        }
+        a:hover,a.active{
+          background: none;
+          color: #0082e6;
+        }
+        #check:checked ~ ul{
+          left: 0;
+        }
+      
+      section{
+        background: url(bg1.jpg) no-repeat;
+        background-size: cover;
+        height: calc(100vh - 80px);
+      }
+    .inner_footer{
+        width:960px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        display: flex;
+        float:left;
+        flex-direction: column;
+    
+    }
+    .footerbox{
+        width:30%;
+        margin-left:2%;
+        height: 300px;
+        float:left;
+    }
+    
+     
+    .inner_box{
+        margin-top: 40px;
+        width: 965px;
+        height:300px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        
+        
+        
+    }
+    .wrapper{
+        width: 90%;
+        max-width: 1200px;
+        min-height: 1000px;
+        max-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+        
+    
+    }
+    .box{
+        width:31%;
+        margin-left: 2%;
+        height:500px;
+        background-color:#2D185C;
+        border-radius: 10px;
+        box-shadow: 8px 8px 4px rgb(104, 140, 212);
+        margin-top:50px;
+    }
+    .frontimage{
+        width:100%;
+        height:auto;
+        padding-top: 0px;
+    
+ 
+  }
+  .resmal{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+    
+  }
+  .wrapperResor{
+    width: 90%;
+    max-width: 1200px;
+    min-height: 1900px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .KontaktRuta{
+    margin-top:20px;
+    padding-top:40px;
+    margin-left:16px;
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .KontaktRuta li{
+    font-size: 17px;
+
+  }
+  .OmOssruta{
+      margin-top:20px;
+      width:98%;
+      height:700px;
+      float:left;
+      margin-left:1%;
+      border-style: solid;
+      border-width: 2px;
+
+  }
+  .wrapperPriser{
+    width: 90%;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .KontaktRuta ul{
+  margin-left:15px;
+}
+
+}

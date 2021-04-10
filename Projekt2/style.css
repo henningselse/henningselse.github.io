@@ -1,0 +1,507 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Arvo', serif;
+  letter-spacing: 1px;
+}
+
+/*almänn typografi */
+h2{
+  text-align: center;
+  margin-top: 10px;
+  size:20px;
+  letter-spacing: 1px;
+  color:white;
+  text-transform: uppercase;
+}
+p{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 10x;
+    margin-left: 20px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-weight: 100;
+    font-size: 34px;
+    margin-top: 20px;
+    background: #4E6FDE;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+h3{
+    background:#4E6FDE;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    margin:0px;
+}
+/*almänn typografi SLUT*/
+
+/*Navigation*/
+
+nav{
+  background: #2D185C;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  font-family: 'Arvo', serif;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  font-family: 'Arvo', serif;
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: rgb(255, 254, 254);
+  color:black;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px){
+  label.logo{
+    font-size: 10px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    font-family: 'Arvo', serif;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2D185C;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+/*Navigation Slut*/
+
+/*Index Sidan */
+.box{
+  font-family: 'Arvo', serif;
+  float:left;
+  letter-spacing: 2px;
+  width:40%;
+  margin-left:2%;
+  height:80%;
+  background-color:#2D185C;
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgb(104, 140, 212);
+  margin-top:50px;
+}
+.inner_box{
+  margin-top: 40px;
+  width: 80%;
+  height:400px;
+  margin-left:15%;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.frontimage{
+  width: 100%;
+}
+
+@media (max-width:1100px){
+  .inner_box{
+    margin-bottom: 10px;
+    margin-top:10px;
+    width: 95%;
+    height:600px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .box{
+    float:left;
+      width:100%;
+      margin-left: 0;
+      margin-right: 3%;
+      height:500px;
+      background-color:#2D185C;
+      border-radius: 10px;
+      box-shadow: 8px 8px 4px rgb(104, 140, 212);
+      margin-top:10px;
+
+  }
+}
+/*Index Sidan SLUT*/
+
+
+/*Resor*/
+
+.wrapperResor{
+    width: 90%;
+    max-width: 1200px;
+    min-height: 800px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+.resmal{
+  padding-top:40px;
+    margin-top: 10px;
+    width: 31.5%;
+    float:left;
+    margin-left: 1%;
+  
+
+
+}
+
+.resmal img{
+    max-width: 100%;
+    border-radius: 7px;
+    margin-left: 1%;
+
+}
+
+
+@media (max-width: 510px){
+  .resmal{
+    padding-top:40px;
+      margin-top: 10px;
+      width: 100%;
+      margin-left: 0;
+  }
+  .resmal h1{
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+  .wrapperResor{
+    width: 90%;
+    height: 1700px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+
+}
+/*Resor SLUT*/
+
+/* Footer */
+footer{
+ margin-top: 100px;
+  width:100%;
+  height:100%;
+  background:#2D185C;
+  padding-top: 150px;
+}
+
+.footerbox{
+  float:left;
+  height: 300px;
+  width:20%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner_footer{
+ background-color: #2D185C;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  display: flex;
+  flex-direction: row;
+
+
+}
+.footerbox img{
+  width:20px;
+  float:left;
+  margin-right: 10px;
+  margin-top:10px;
+}
+.footerbox h2{
+  float:left;
+  background-color:#9E7EE1;
+  border-radius: 5px;
+}
+
+.footerbox p{
+  font-size: 20px;
+}
+@media (max-width:813px){
+  footer{
+    margin-top: 350px;
+    width:100%;
+    height:100%;
+    background:#2D185C;
+    padding-top: 150px;
+  }
+  .footerbox{
+
+    float:left;
+    height: 300px;
+    width:95%;
+
+    margin-right: auto;   
+  }
+
+  .inner_footer{
+    margin-left: 0px;
+    float:left;
+    width:100%;
+    height: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+  
+  
+  }
+  @media (max-width:700px){
+    .footerbox h2{
+      float:left;
+      background-color:#9E7EE1;
+      border-radius: 3px;
+    }
+    .footerbox{
+      justify-content: center;
+      background-color: #2D185C;
+      height: 300px;
+      width:95%;
+      margin-right: auto;   
+    }
+
+    }
+  
+  
+  }
+/*footer SLUT*/
+
+/*Kontakt*/
+.wrapper{
+  width: 100%;
+  height: 400px;
+
+  
+
+}
+.KontaktRuta{
+  margin-top:20px;
+  width:48%;
+  height:300px;
+  float:left;
+  margin-left:1%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.KontaktRuta h2{
+  color:black;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.KontaktRuta li{
+  padding:10px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #2D185C;
+
+}
+.KontaktRuta p{
+  color:black;
+}
+@media (max-width:900px){
+  .KontaktRuta{
+    margin-top:20px;
+    width:100%;
+    height:200px;
+    margin-left:1%;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .KontaktRuta p{
+    color:black;
+    font-size: 12px;
+    float:left;
+    margin-left: 3px;
+  }
+  .wrapper{
+    width: 95%;
+    margin-left: 10px;
+    height: 400px;
+  
+    
+  
+  }
+  .wrapper  h1{
+    font-size:20px;
+    padding: 4px;
+  }
+  .KontaktRuta h2{
+    color:black;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  }
+
+}
+/*OM oss*/
+.wrapperOmOss{
+  width:100%;
+  height: 400px;
+}
+.OmOssruta{
+  margin-top:20px;
+  width:98%;
+  height:450px;
+  float:left;
+  margin-left:1%;
+  border-style: solid;
+  border-width: 2px;
+}
+.OmOssruta h2{
+  color:black;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.OmOssruta p{
+  color:black;
+  margin-left: 17px;
+}
+@media (max-width:432px){
+  .OmOssruta{
+    margin-top:20px;
+    width:98%;
+    height:550px;
+    float:left;
+    margin-left:1%;
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+
+
+/*Priser */
+.wrapperPriser{
+  width: 90%;
+  max-width: 1200px;
+  min-height: 500px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.resmal p{
+  margin: 10px;
+  float:left;
+  color:white;
+  font-size: 20px;
+  background-color: #2D185C;
+  background-size: 10px;
+  padding:10px;
+  border-radius: 5px;
+}
+@media (max-width:510px){
+  .wrapperPriser{
+    width: 90%;
+    height: 800px;
+  }
+}
+/*Top knapp*/
+#TopKnapp{
+  display: none;
+    position: fixed;
+    transition: 1s;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #TopKnapp:hover{
+    background-color: #4E6FDE;
+  }
+  
+
